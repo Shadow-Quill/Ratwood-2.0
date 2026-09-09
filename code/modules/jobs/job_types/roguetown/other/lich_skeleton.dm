@@ -20,6 +20,9 @@ LICH SKELETONS
 	REMOVE_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_LICHLAIR, TRAIT_GENERIC) //Ability to leave/enter the lich's lair without being softlocked inside.
 
+/datum/advclass/greater_skeleton/lich
+	applies_post_equipment = FALSE
+
 // Melee goon w/ throwables. All-rounder.
 /datum/advclass/greater_skeleton/lich/legionnaire
 	name = "Ancient Legionnaire"
