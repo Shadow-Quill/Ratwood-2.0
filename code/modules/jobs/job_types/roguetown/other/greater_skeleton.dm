@@ -42,6 +42,8 @@
 	H.invisibility = INVISIBILITY_MAXIMUM
 	H.become_blind("advsetup")
 
+/datum/advclass/greater_skeleton
+	applies_post_equipment = FALSE
 
 /*
 NECRO SKELETONS
